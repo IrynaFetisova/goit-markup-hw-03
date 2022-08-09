@@ -116,7 +116,7 @@ ul {
 /* hero */
 
 .hero-title {
-    margin-left: 452px;
+    margin-top: 0;
     margin-bottom: 30px; 
     width: 696px;
     height: 120px;
@@ -223,6 +223,7 @@ ul {
 
 /* button */
 .button {
+    margin-top: 0;
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     border-radius: 4px;
@@ -309,6 +310,7 @@ ul {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px #EEEEEE;
 }
 
 .work-list .cards:nth-child(3n) {
