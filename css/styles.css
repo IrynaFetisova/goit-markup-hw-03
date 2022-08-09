@@ -17,7 +17,7 @@ ul {
 }
 
 .page-header {
-    border: 1px #ECECEC;
+    border: 1px solid #ECECEC;
 }
 
 .container {
@@ -31,6 +31,7 @@ ul {
 .main-nav {
     display: flex;
     align-items: center;
+    outline: to;
 }
 
 .list {
@@ -116,21 +117,26 @@ ul {
 /* hero */
 
 .hero-title {
-    margin-top: 0;
-    margin-bottom: 30px; 
-    width: 696px;
-    height: 120px;
-    top: 280px;
+    
     color: var(--primary-bg-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
-    text-align: center;
     text-transform: uppercase;
 }
 
+/*   color: var(--primary-bg-color);
+    
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase; */
 
+ /*  
+    
+    
+     text-align: center;*/
 
 /* section */
 .section {
@@ -310,7 +316,7 @@ ul {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
-    border-bottom: 1px #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 
 .work-list .cards:nth-child(3n) {
