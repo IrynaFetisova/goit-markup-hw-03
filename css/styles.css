@@ -310,7 +310,7 @@ ul {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px #EEEEEE;
+    border-bottom: 1px #EEEEEE;
 }
 
 .work-list .cards:nth-child(3n) {
