@@ -19,7 +19,7 @@ ul,p, h2 {
 }
 
 .page-header {
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .container {
