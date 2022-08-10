@@ -12,8 +12,10 @@ body{
     letter-spacing: 0.03em;
 }
 
-ul {
+ul,p, h2 {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .page-header {
@@ -21,7 +23,7 @@ ul {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -117,26 +119,17 @@ ul {
 /* hero */
 
 .hero-title {
-    
+    max-width: 696px;
+    margin: 0 auto;
     color: var(--primary-bg-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
 }
 
-/*   color: var(--primary-bg-color);
-    
-    line-height: 1.4;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase; */
-
- /*  
-    
-    
-     text-align: center;*/
 
 /* section */
 .section {
@@ -148,12 +141,18 @@ ul {
 .section-title {
     margin-top: 0;
     margin-bottom: 50px;
+    width: 1170px;
     color: var(--title-tex-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    text-transform: uppercase;
-    text-align: center;}
+    text-align: center;
+}
+
+.section.images {
+    padding-top: 0px;
+}
+
 
 /* feature */
 
@@ -163,7 +162,7 @@ ul {
 
 .feature-list .title {
     color: var(--title-tex-color);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.2;
     text-align: start;
@@ -171,7 +170,7 @@ ul {
 }
 
 .feature-list .cards {
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .feature-list .text {
@@ -185,10 +184,6 @@ ul {
     margin-right: 30px;
 }
 
-.main-title .title {
-    width: 270px;
-    text-align: left;
-}
 
 /* worker */
 .worker-list {
@@ -229,7 +224,9 @@ ul {
 
 /* button */
 .button {
-    margin-top: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     border-radius: 4px;
@@ -246,6 +243,7 @@ ul {
 
 
 .button.secondary{
+    padding: 6px 22px;
     display: inline;
     color: var(--title-tex-color);
     background-color: #F5F4FA;
@@ -265,8 +263,7 @@ ul {
     display: flex;
     justify-content: center;
     margin-top: 94px;
-    margin-bottom: 34px;
-    
+    margin-bottom: 50px;
 }
 
 .elements {
@@ -303,8 +300,14 @@ ul {
 }
    
 .f-address {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
+
+.f-element {
+    margin: 9px;
+}
+
+
 /* portfolio */
 
 .work-list {
@@ -340,3 +343,16 @@ ul {
     font-size: 16px;
     line-height: 1.8;
 }
+
+.card-text {
+    padding: 24px 20px;
+}
+
+.card-text .title {
+    margin-bottom: 4px;}
+/* .
+}
+
+.card-text .text {
+    margin-bottom: 20px;
+} */
